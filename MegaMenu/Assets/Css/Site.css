@@ -1,0 +1,143 @@
+/* CSS Document */
+html,body{
+	height:100%;
+	margin:0px;
+	direction:rtl;
+	font-family:IRANSans !important;
+}
+body{background-image:url(../Image/Back.jpg);
+	 background-size:cover;
+	 background-attachment:fixed;
+}
+.main .header{
+	height:auto;
+	background-color:#333;
+	color:#ccc;
+}
+.main .header .top{
+	height:23px;
+}
+.main .header .top span{margin-right:7px;}
+.main .header .banner{background-color:#016990;
+					  margin:0px -15px;}
+.main .slider{
+	height:auto;
+	background-color:#ccc;
+	padding:0px;
+	
+}
+.carousel-caption{
+	color:#000;
+}
+.carousel-caption h5{
+	font-size:1.75rem !important;
+
+}
+.card-body .list-group{
+    padding: 0px;
+    margin:  0px -15px;
+}
+.carousel-indicators li{
+	width:20px;
+	height:20px;
+	border-radius:50%;
+}
+.Services{
+	padding-top: 15px;
+}
+.News .col-md-4 .card-body a img{
+	border-radius:15px;
+	border:1px solid black;
+}
+.SpliterRow{
+	background-color:#016990;
+	
+}
+.TopMenu .collapse{
+	position:relative;
+	
+}
+.TopMenu .dropdown {
+	position:static;
+}
+
+.accordion:hover .accordion-item:hover .accordion-item-content,
+.accordion .accordion-item--default .accordion-item-content {
+    height:auto;
+}
+
+.accordion-item-content,
+.accordion:hover .accordion-item-content {
+    height: 0;
+    overflow: hidden;
+    transition: height .25s;
+}
+.accordion-item h5{
+	font-size:inherit;
+}
+.accordion-item p{
+	font-size:.8rem;
+}
+.dropdown-menu a,.list-group-item h5,.list-content p,.list-group-item p{
+	font-size:.9rem;
+	
+}
+.dropdown-menu a{
+	color:black;
+}
+.dropdown-menu a:hover{
+	text-decoration:none !important;
+}
+nav .mega-content {
+	position:relative;
+	
+}
+
+nav .list-content{
+	display:none;
+}
+
+nav input{padding-left:42px;}
+nav button{margin-right:-42px;}
+
+.News .bg-primary{
+	background-color:#016990 !important;
+}
+
+.News a:hover{
+	text-decoration:none;
+}
+@media (min-width: 576px)
+{
+	.card-deck .card {
+		flex:1 0 100%;
+	}
+}
+
+@media (min-width: 768px)
+{
+	.card-deck .card {
+		flex:1 0 10%;
+	}
+}
+.fa-phone,.fa-exclamation-triangle{
+	animation: bounceIn 2s infinite;
+}
+@keyframes bounceIn{
+  0%{
+    opacity: 0;
+    transform: scale(0.3) translate3d(0,0,0);
+  }
+  50%{
+    opacity: 0.9;
+    transform: scale(1.1);
+  }
+  80%{
+    opacity: 1;
+    transform: scale(0.89);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1) translate3d(0,0,0);
+  }
+}
